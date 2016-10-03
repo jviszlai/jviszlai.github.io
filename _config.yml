@@ -1,0 +1,45 @@
+### Site info:
+title: Joshua Viszlai
+tagline: Computer Science and Physics Nerd
+author: Joshua Viszlai
+email: viszlai@gatech.edu
+description: "I'm a first year Computer Science and Physics student at Georgia Tech!" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+permalink: ":title"
+url: "" # the base hostname & protocol for your site
+locale: en_US
+
+### Personal info and site tools info:
+github_username:  jviszlai
+favicon: "/images/favicon2.ico"
+contactme: I'm learning. # these are shown on aboutme-sidebar.
+contactme_photo: https://i.imgur.com/Mdc4szJl.jpg # your photo.
+google_analytics_key: UA-85093921-1 # put YOUR key here to enable tracking! (blank to disable)
+fontAwesome: "/font-awesome-4.6.3/css/font-awesome.min.css"
+
+### Site setting:
+ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr) and Russian (ru)
+
+locales:
+    en:
+      Contactme: "Contact Me"
+      Projects: "Projects"
+      Home: "Home"
+      Bio: "Bio"
+      Resume: "Resume"
+
+
+
+### Build settings
+markdown: kramdown
+#highlighter: pygments
+kramdown:
+        input: GFM
+        syntax_highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "projects/page:num/"
+excerpt_separator: <!-- more -->

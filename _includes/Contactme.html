@@ -1,0 +1,25 @@
+<div class="sidebar-module about">
+  <h4>{{ site.locales[site.default_locale].Contactme }}</h4>
+  <img title="{{site.author}}" src="{{site.contactme_photo}}" alt="{{site.author}}"/>
+  <span>{{site.contactme}}</span>
+  <br />
+
+  {% if site.ShowContactInfo == "True" %}
+
+  You can contact me via:
+  <br />
+
+  {% if site.email != empty %}
+  <a href="mailto:{{site.email}}" title="mailto: {{site.email}}">
+    <i class="fa fa-envelope-square fa-3x" aria-hidden="true"></i>
+  </a>
+  {% endif %}
+  {% if site.github_username != empty %}
+  <a href="https://github.com/{{site.github_username}}" title="GithubID: {{site.github_username}}">
+     <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+  </a>
+  {% endif %}
+
+  {% endif %}
+
+</div>
