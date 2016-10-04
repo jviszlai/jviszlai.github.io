@@ -7,7 +7,7 @@ description: "I'm a first year Computer Science and Physics student at Georgia T
 keywords: ""
 baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: ":title"
-url: "" # the base hostname & protocol for your site
+url: "http://jviszlai.github.io" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
