@@ -12,8 +12,8 @@ locale: en_US
 
 ### Personal info and site tools info:
 github_username:  jviszlai
-resumeImage: "/downloads/resumeImage.jpg"
-resumePDF: "/downloads/resume.pdf"
+resumeImage: "/downloads/ResumeImage.jpg"
+resumePDF: "/downloads/Resume.pdf"
 favicon: "/images/favicon2.ico"
 contactme: I'm learning. # these are shown on aboutme-sidebar.
 contactme_photo: https://i.imgur.com/Mdc4szJl.jpg # your photo.
