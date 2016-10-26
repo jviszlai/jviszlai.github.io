@@ -9,7 +9,7 @@
 
 <meta property="og:title" content="Automated Vision Processing">
 <title>Automated Vision Processing</title>
-<meta property="og:description" content="Code123for (int i = 0; i &lt; 10; i++) {    System.out.println(i);}for (int i = 0; i &lt; 10; i++) {    System.out.println(i);}">
+<meta property="og:description" content="This project was an automated vision processing program meant to help quickly process and adjust the aim for shots during a robotics competition, FIRST Stron...">
 <meta property="og:url" content="http://jviszlai.github.io/Automated-Vision-Processing">
 <meta property="og:site_name" content="Joshua Viszlai">
 <meta property="og:locale" content="en_US">
@@ -86,20 +86,19 @@
   </header>
 
   <article class="post-content" itemprop="articleBody">
-    <p><strong>Code</strong></p>
+    <p>This project was an automated vision processing program meant to help quickly process and adjust the aim for shots during a robotics competition, <a href="https://en.wikipedia.org/wiki/FIRST_Stronghold">FIRST Stronghold</a>. The goal of the project was to effectively identify the best spot to shoot in order to score, be able to adjust the robot accordingly, and perform these tasks with little delay.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2
-3</pre></td><td class="code"><pre><span class="k">for</span> <span class="p">(</span><span class="n">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-    <span class="no">System</span><span class="p">.</span><span class="nf">out</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
-<span class="p">}</span><span class="w">
-</span></pre></td></tr></tbody></table></code></pre></figure>
+<p>I worked with 2 other team members to develop all the code for the robot, including the robot Java code on the main processor and the vision processing code on a Raspberry Pi coprocessor, however, I mainly worked on the vision processing, so that’s what I’ve included on this project page.</p>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">10</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="n">System.out.println</span><span class="p">(</span><span class="n">i</span><span class="p">);</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre>
-</div>
+<p>The program was written using Python along with the library, <a href="http://opencv.org/">OpenCV</a>. The purpose of the program was to identify a goal (in the case of the competition this was a hole in a tower) outlined in reflective tape, and relay instructions to the main processor on adjustments necessary to aim a shot properly.</p>
+
+<p>The biggest challenge proved to be isolating the goal from random lights in the room that had similar color values, however, to solve this, the program isolates objects of the target color that also have the number of corners as the goal outline, which was 8, and then identifies the largest remaining object as the goal. This proved effective approximately 1 out of every 8 frames or so, due to the occasional false detection of a large light and the way the program approximates corners. To adjust for this, the program also finds the most frequently detected object out of every 5 frames and only sends adjustment data for that object.</p>
+
+<p><img src="/downloads/ControlAward.jpg" width="150" align="right" /></p>
+
+<p>This program proved extremely effective and took noticeably less time to process than other popular methods of teams from both that year and years past. Because of this, at our first competition of the season we were awarded the innovation in control award, given to a team for innovative ways of programming their robot.</p>
+
+<p>The Python code for this project can be found on GitHub <a href="https://github.com/jviszlai/OpenCV-FRC-Vision-Processing">here</a>.</p>
 
   </article>
   <hr />
@@ -110,10 +109,10 @@
 <section class="pager">
   <ul>
     
-    <li class="previous"><a href="/HackPack" title="HackPack">&larr; </a></li>
+    <li class="disabled"><a>&larr; </a></li>
     
     
-    <li class="disabled"><a> &rarr;</a>
+    <li class="next"><a href="/HackPack" title="HackPack"> &rarr;</a></li>
     
   </ul>
 </section>
