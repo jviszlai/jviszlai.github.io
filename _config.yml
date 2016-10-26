@@ -3,8 +3,6 @@ title: Joshua Viszlai
 tagline: Computer Science and Physics Nerd
 author: Joshua Viszlai
 email: viszlai@gatech.edu
-description: "I'm a first year Computer Science and Physics student at Georgia Tech!" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: ""
 baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: ":title"
 url: "http://jviszlai.github.io" # the base hostname & protocol for your site
@@ -15,7 +13,7 @@ github_username:  jviszlai
 resumeImage: "/downloads/ResumeImage.jpg"
 resumePDF: "/downloads/Resume.pdf"
 favicon: "/images/favicon2.ico"
-contactme: I'm learning. # these are shown on aboutme-sidebar.
+contactme: Want to contact me?  # these are shown on aboutme-sidebar.
 contactme_photo: https://i.imgur.com/Mdc4szJl.jpg # your photo.
 google_analytics_key: UA-85093921-1 # put YOUR key here to enable tracking! (blank to disable)
 fontAwesome: "/font-awesome-4.6.3/css/font-awesome.min.css"
