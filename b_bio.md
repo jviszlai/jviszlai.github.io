@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: default
 title: Bio
 permalink: /bio/
 ---
+![Me with the Ramblin' Wreck](/downloads/WebsitePhoto1.jpg)
 
 Hello! I'm Joshua Viszlai, a first year computer science student at Georgia Tech. My interests include robotics and mobile app development, but I'm looking to get experience in numerous areas of software engineering. Outside of computer science, I'm a physics lover and an avid video gamer with friends.
 

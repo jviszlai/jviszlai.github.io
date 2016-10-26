@@ -1,6 +1,6 @@
 ### Site info:
 title: Joshua Viszlai
-tagline: Computer Science and Physics Nerd
+tagline: "Hacker Enthusiast • Robotics Innovator"
 author: Joshua Viszlai
 email: viszlai@gatech.edu
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -14,7 +14,7 @@ resumeImage: "/downloads/ResumeImage.jpg"
 resumePDF: "/downloads/Resume.pdf"
 favicon: "/images/favicon2.ico"
 contactme: Want to contact me?  # these are shown on aboutme-sidebar.
-contactme_photo: https://i.imgur.com/Mdc4szJl.jpg # your photo.
+contactme_photo: "/downloads/WebsitePhoto2.jpg" # your photo.
 google_analytics_key: UA-85093921-1 # put YOUR key here to enable tracking! (blank to disable)
 fontAwesome: "/font-awesome-4.6.3/css/font-awesome.min.css"
 
