@@ -16,3 +16,7 @@ The biggest challenge proved to be isolating the goal from random lights in the 
 This program proved extremely effective and took noticeably less time to process than other popular methods of teams from both that year and years past. Because of this, at our first competition of the season we were awarded the innovation in control award, given to a team for innovative ways of programming their robot.
 
 The Python code for this project can be found on GitHub [here](https://github.com/jviszlai/OpenCV-FRC-Vision-Processing).
+
+Below I've also included a cool gif of the robot running the program during competition.
+
+<img src="/downloads/autoshot.gif">
