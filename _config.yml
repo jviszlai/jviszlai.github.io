@@ -27,6 +27,7 @@ locales:
     en:
       Contactme: "Contact Me"
       Projects: "Projects"
+      Copyright_Notice: "Copyright Notice"
       Home: "Home"
       Bio: "Bio"
       Resume: "Resume"
