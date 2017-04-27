@@ -4,7 +4,7 @@ title: Bio
 permalink: /bio/
 ---
 
-Hello! I'm Joshua Viszlai, a first year computer science student at Georgia Tech. My interests include robotics and mobile app development, but I'm looking to get experience in numerous areas of software engineering. Outside of computer science, I'm a physics lover and an avid video gamer with friends.
+Hello! I'm Joshua Viszlai, a first year computer science and physics student at Georgia Tech. My interests include robotics and mobile app development, but I'm looking to get experience in numerous areas of software engineering. Outside of computer science, I'm a physics lover and an avid video gamer with friends.
 
 My work has been primarily with Java, but I've also done projects with Python, HTML, and CSS. Thanks to my experience with robotics, I've also worked with electronics to integrate my code with hardware components.
 
