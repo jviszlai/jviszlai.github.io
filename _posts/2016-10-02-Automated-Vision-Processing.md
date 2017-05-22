@@ -9,7 +9,7 @@ I worked with 2 other team members to develop all the code for the robot, includ
 
 The program was written using Python along with the library, [OpenCV](http://opencv.org/). The purpose of the program was to identify a goal (in the case of the competition this was a hole in a tower) outlined in reflective tape, and relay instructions to the main processor on adjustments necessary to aim a shot properly.
 
-The biggest challenge proved to be isolating the goal from random lights in the room that had similar color values, however, to solve this, the program isolates objects of the target color that also have the number of corners as the goal outline, which was 8, and then identifies the largest remaining object as the goal. This proved effective approximately 1 out of every 8 frames or so, due to the occasional false detection of a large light and the way the program approximates corners. To adjust for this, the program also finds the most frequently detected object out of every 5 frames and only sends adjustment data for that object.
+The biggest challenge proved to be isolating the goal from random lights in the room that had similar color values, however, to solve this, the program isolates objects of the target color that also have the number of corners as the goal outline, which was 8, and then identifies the largest remaining object as the goal. This proved effective approximately 7 out of every 8 frames or so, due to the occasional false detection of a large light and the way the program approximates corners. To adjust for this, the program also finds the most frequently detected object out of every 5 frames and only sends adjustment data for that object.
 
 <img src="/downloads/ControlAward.jpg" width="150" align="right">
 
