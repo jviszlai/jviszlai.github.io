@@ -41,15 +41,15 @@
 }
 
 #about {
-  background-color: #1a222c;
-  min-height: 1000px;
+  background-color: #1F1F1F;
+  min-height: 500px;
   position: relative;
 }
 
 .about_headshot {
   position: absolute;
-  left: 15%;
-  top: 30%;
+  left: 12%;
+  top: 50%;
 
   transform: translate(-50%, -50%);
 
@@ -67,13 +67,60 @@
   font-family: monospace;
   text-align: center;
   font-size: 20px;
-  color: white;
+  color: #C0B18B;
 
   position: absolute;
-  left: 30%;
-  top: 30%;
+  left: 25%;
+  top: 50%;
 
   width: 70%;
+}
+
+#projects {
+  background-color: #1F1F1F;
+  min-height: 450px;
+  position: relative;
+
+  font-family: monospace;
+  text-align: center;
+  font-size: 50px;
+  color: #C0B18B;
+}
+
+.thumb_igvc {
+  background-color: #4A3637;
+  width: 500px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #D17B49;
+
+  font-size: 30px;
+
+  position: absolute;
+  left: 10%;
+  top: 20%;
+
+}
+
+.thumb_gba {
+  background-color: #4A3637;
+  width: 500px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #D17B49;
+
+  font-size: 30px;
+
+  position: absolute;
+  left: 40%;
+  top: 20%;
+
+}
+
+#projects img {
+  max-width: 100%;
+  height:300px;
+  overflow: hidden;
 }
 
 body {
