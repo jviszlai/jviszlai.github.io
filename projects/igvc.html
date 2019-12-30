@@ -2,6 +2,27 @@
 <link rel="stylesheet" href="/assets/css/projects.css">
 <html lang="en">
   <body id="igvc_project">
-    Coming soon to a webpage near you!
+    <div class="igvc_title">
+      Ground Segmentation for Intelligent Ground Vehicle Competition (IGVC)
+    </div>
+    <pre>
+      This is a project I worked on with <a href="https://www.robojackets.org" style="color: #AF865A">RoboJackets</a> for our <a href="http://www.igvc.org" style="color: #AF865A">IGVC</a> competition. The premise of the competition is to build a robot to autonomously navigate 
+      an obstacle course on grassy terrain. The work described here was done in an effort to improve our ground segmentation approach. To help with this
+      problem, we have access to a VLP-16 LiDAR, which gives 3D pointcloud data. Previously, we used a RANSAC-based approach to fit a plane to LiDAR points 
+      which we would define as ground. This worked ok, but we ran into issues with hillier ground sometimes being treated as an obstacle (nonground points).
+      
+      I wanted to remove this uniform plane assumption, and so I implemented an approach defined by <a href="https://ieeexplore.ieee.org/abstract/document/5548059" style="color: #AF865A">Himmelsbach, Hundelshausen, and Wuensche</a>, with a couple 
+      changes. I made two notable changes to the approach. First, instead of thresholding radial distance to define bins to group points into, I used the
+      ring information provided by our LiDAR. Each point is tagged by which of the 16 rings it was detected in, and using this to group points in each 
+      segment proved to give much finer resolution of high-slope surfaces. The second change I made was I added another check to determine if a line
+      was from the ground or not. Specifically, if all the points defining the line are below some threshold, than that line is defined to be ground. 
+      This proved useful in eliminating noisy lines of 2 or 3 points on the ground that tended to randomly have large slopes. 
+
+      The implementation can be found on GitHub with <a href="https://github.com/RoboJackets/igvc-software/tree/master/igvc_perception/include/pointcloud_filter/fast_segment_filter" style="color: #AF865A">header files</a> and <a href="https://github.com/RoboJackets/igvc-software/tree/master/igvc_perception/src/pointcloud_filter/fast_segment_filter" style="color: #AF865A">implementation files</a>. Our codebase uses <a href="https://www.ros.org" style="color: #AF865A">ROS</a>.
+      
+      You can see some results of the implementation below:
+      
+    </pre>
+    <img src="/assets/images/igvc_project.png">
   </body>
 </html>
