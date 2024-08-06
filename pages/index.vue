@@ -28,26 +28,31 @@
             Jason D Chadwick, Christopher Kang, <span class="text-nord12">Joshua Viszlai</span>, Sophia Fuhui Lin, Frederic T Chong<br>
             <i>IEEE International Conference on Quantum Computing and Engineering (QCE 24)</i>
           </li>
+          <br>
           <li>
             <b>Matching Generalized-Bicycle Codes to Neutral Atoms for Low-Overhead Fault-Tolerance</b>(<a href="https://arxiv.org/abs/2311.16980" class="text-nord12"><u>arXiv</u></a>)<br>
             <span class="text-nord12">Joshua Viszlai</span>, Willers Yang, Sophia Fuhui Lin, Junyu Liu, Natalia Nottingham, Jonathan M Baker, Frederic T Chong<br>
             <i>Under Review</i>
           </li>
+          <br>
           <li>
             <b>An Architecture for Improved Surface Code Connectivity in Neutral Atoms</b>(<a href="https://arxiv.org/abs/2309.13507" class="text-nord12"><u>arXiv</u></a>)<br>
             <span class="text-nord12">Joshua Viszlai</span>, Sophia Fuhui Lin, Siddharth Dangwal, Jonathan M Baker, Frederic T Chong<br>
             <i>Under Review</i>
           </li>
+          <br>
           <li>
             <b>Codesign of quantum error-correcting codes and modular chiplets in the presence of defects</b>(<a href="https://arxiv.org/abs/2305.00138" class="text-nord12"><u>arXiv</u></a>)<br>
             Sophia Fuhui Lin, <span class="text-nord12">Joshua Viszlai</span>, Kaitlin N Smith, Gokul Subramanian Ravi, Charles Yuan, Frederic T Chong, Benjamin J Brown<br>
             <i>ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 24)</i>
           </li>
+          <br>
           <li>
             <b>Fast Fingerprinting of Cloud-based NISQ Quantum Computers</b>(<a href="https://arxiv.org/abs/2211.07880" class="text-nord12"><u>arXiv</u></a>)<br>
             Kaitlin N Smith, <span class="text-nord12">Joshua Viszlai</span>, Lennart Maximilian Seifert, Jonathan M Baker, Jakub Szefer, Frederic T Chong<br>
             <i>IEEE International Symposium on Hardware Oriented Security and Trust (HOST 23)</i>
           </li>
+          <br>
           <li>
             <b>Training Quantum Boltzmann Machines with Coresets</b>(<a href="https://arxiv.org/abs/2307.14459" class="text-nord12"><u>arXiv</u></a>)<br>
             <span class="text-nord12">Joshua Viszlai</span>, Teague Tomesh, Pranav Gokhale, Eric Anschuetz, Frederic T Chong<br>

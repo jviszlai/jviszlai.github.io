@@ -9,6 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: yarn install && yarn generate
+        env: 
+          NODE_OPTIONS: --openssl-legacy-provider
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
