@@ -24,20 +24,45 @@
         <div> <hr class="border-nord12 border-2 shadow-lg"> </div>
         <ul class="list-disc font-sans text-xl text-nord2 mt-[1rem] ml-[2rem] mr-[2rem] mb-[1rem]">
           <li>
-            <b>Training Quantum Boltzmann Machines with Coresets</b><br>
-            <span class="text-nord12">Joshua Viszlai</span>, Teague Tomesh, Pranav Gokhale, Eric Anschuetz, Fred Chong<br>
+            <b>Averting multi-qubit burst errors in surface code magic state factories</b>(<a href="https://arxiv.org/abs/2405.00146" class="text-nord12"><u>arXiv</u></a>)<br>
+            Jason D Chadwick, Christopher Kang, <span class="text-nord12">Joshua Viszlai</span>, Sophia Fuhui Lin, Frederic T Chong<br>
+            <i>IEEE International Conference on Quantum Computing and Engineering (QCE 24)</i>
+          </li>
+          <li>
+            <b>Matching Generalized-Bicycle Codes to Neutral Atoms for Low-Overhead Fault-Tolerance</b>(<a href="https://arxiv.org/abs/2311.16980" class="text-nord12"><u>arXiv</u></a>)<br>
+            <span class="text-nord12">Joshua Viszlai</span>, Willers Yang, Sophia Fuhui Lin, Junyu Liu, Natalia Nottingham, Jonathan M Baker, Frederic T Chong<br>
+            <i>Under Review</i>
+          </li>
+          <li>
+            <b>An Architecture for Improved Surface Code Connectivity in Neutral Atoms</b>(<a href="https://arxiv.org/abs/2309.13507" class="text-nord12"><u>arXiv</u></a>)<br>
+            <span class="text-nord12">Joshua Viszlai</span>, Sophia Fuhui Lin, Siddharth Dangwal, Jonathan M Baker, Frederic T Chong<br>
+            <i>Under Review</i>
+          </li>
+          <li>
+            <b>Codesign of quantum error-correcting codes and modular chiplets in the presence of defects</b>(<a href="https://arxiv.org/abs/2305.00138" class="text-nord12"><u>arXiv</u></a>)<br>
+            Sophia Fuhui Lin, <span class="text-nord12">Joshua Viszlai</span>, Kaitlin N Smith, Gokul Subramanian Ravi, Charles Yuan, Frederic T Chong, Benjamin J Brown<br>
+            <i>ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 24)</i>
+          </li>
+          <li>
+            <b>Fast Fingerprinting of Cloud-based NISQ Quantum Computers</b>(<a href="https://arxiv.org/abs/2211.07880" class="text-nord12"><u>arXiv</u></a>)<br>
+            Kaitlin N Smith, <span class="text-nord12">Joshua Viszlai</span>, Lennart Maximilian Seifert, Jonathan M Baker, Jakub Szefer, Frederic T Chong<br>
+            <i>IEEE International Symposium on Hardware Oriented Security and Trust (HOST 23)</i>
+          </li>
+          <li>
+            <b>Training Quantum Boltzmann Machines with Coresets</b>(<a href="https://arxiv.org/abs/2307.14459" class="text-nord12"><u>arXiv</u></a>)<br>
+            <span class="text-nord12">Joshua Viszlai</span>, Teague Tomesh, Pranav Gokhale, Eric Anschuetz, Frederic T Chong<br>
             <i>IEEE International Conference on Quantum Computing and Engineering (QCE 22)</i>
           </li>
           <br>
           <li>
             <b>SupermarQ: A Scalable Quantum Benchmark Suite</b>(<a href="https://arxiv.org/abs/2202.11045" class="text-nord12"><u>arXiv</u></a>) <b class="text-nord11"> Best Paper Award</b><br>
-            Teague Tomesh, Pranav Gokhale, Victory Omole, Gokul Subramanian Ravi, Kaitlin Smith, <span class="text-nord12">Joshua Viszlai</span>, Xin-Chuan Wu, Nikos Hardavellas, Margaret R. Martonosi, Fred Chong<br>
+            Teague Tomesh, Pranav Gokhale, Victory Omole, Gokul Subramanian Ravi, Kaitlin Smith, <span class="text-nord12">Joshua Viszlai</span>, Xin-Chuan Wu, Nikos Hardavellas, Margaret R. Martonosi, Frederic T Chong<br>
             <i>The 28th IEEE International Symposium on High-Performance Computer Architecture (HPCA-28)</i>
           </li>
           <br>
           <li>
             <b>Adapting Quantum Approximation Optimization Algorithm (QAOA) for Unit Commitment</b> (<a href="https://arxiv.org/abs/2110.12624" class="text-nord12"><u>arXiv</u></a>)<br>
-            Samantha Koretsky, Pranav Gokhale, Jonathan M. Baker, <span class="text-nord12">Joshua Viszlai</span>, Honghao Zheng, Niroj Gurung, Ryan Burg, Esa Aleksi Paaso, Amin Khodaei, Rozhin Eskandarpour, Fred Chong<br>
+            Samantha Koretsky, Pranav Gokhale, Jonathan M. Baker, <span class="text-nord12">Joshua Viszlai</span>, Honghao Zheng, Niroj Gurung, Ryan Burg, Esa Aleksi Paaso, Amin Khodaei, Rozhin Eskandarpour, Frederic T Chong<br>
             <i>IEEE International Conference on Quantum Computing and Engineering (QCE 21)</i>
           </li>
         </ul>
@@ -46,6 +71,10 @@
         <div class="font-mono text-5xl text-nord2 font-semibold mt-[1rem] ml-[2rem]"> Teaching </div>
         <div> <hr class="border-nord13 border-2 shadow-lg"> </div>
         <ul class="list-disc font-sans text-xl text-nord2 mt-[1rem] ml-[2rem] mr-[2rem] mb-[1rem]">
+          <li>
+            Co-Instructor for UChicago's CMSC32900 - Quantum Computer Systems
+            <span style="float:right">(Spring 2023)</span>
+          </li>
           <li>
             Teaching Assistant for UChicago's CMSC32900 - Quantum Computer Systems
             <span style="float:right">(Spring 2022)</span>
