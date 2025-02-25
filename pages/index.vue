@@ -24,7 +24,13 @@
         <div> <hr class="border-nord12 border-2 shadow-lg"> </div>
         <ul class="list-disc font-sans text-xl text-nord2 mt-[1rem] ml-[2rem] mr-[2rem] mb-[1rem]">
           <li>
-            <b>Averting multi-qubit burst errors in surface code magic state factories</b>(<a href="https://arxiv.org/abs/2405.00146" class="text-nord12"><u>arXiv</u></a>)<br>
+            <b>Predictive Window Decoding for Fault-Tolerant Quantum Programs</b>(<a href="https://arxiv.org/abs/2412.05115" class="text-nord12"><u>arXiv</u></a>)<br>
+            <span class="text-nord12">Joshua Viszlai</span>, Jason D Chadwick, Sarang Joshi, Gokul Subramanian Ravi, Yanjing Li, Frederic T Chong<br>
+            <i>Under Review</i>
+          </li>
+          <br>
+          <li>
+            <b>Averting multi-qubit burst errors in surface code magic state factories</b>(<a href="https://arxiv.org/abs/2405.00146" class="text-nord12"><u>arXiv</u></a>)<b class="text-nord11"> Best Paper Award <br>(1st Place Quantum Systems Software)</b><br>
             Jason D Chadwick, Christopher Kang, <span class="text-nord12">Joshua Viszlai</span>, Sophia Fuhui Lin, Frederic T Chong<br>
             <i>IEEE International Conference on Quantum Computing and Engineering (QCE 24)</i>
           </li>
@@ -36,9 +42,9 @@
           </li>
           <br>
           <li>
-            <b>An Architecture for Improved Surface Code Connectivity in Neutral Atoms</b>(<a href="https://arxiv.org/abs/2309.13507" class="text-nord12"><u>arXiv</u></a>)<br>
-            <span class="text-nord12">Joshua Viszlai</span>, Sophia Fuhui Lin, Siddharth Dangwal, Jonathan M Baker, Frederic T Chong<br>
-            <i>Under Review</i>
+            <b>Interleaved Logical Qubits in Atom Arrays</b><br>
+            <span class="text-nord12">Joshua Viszlai</span>, Sophia Fuhui Lin, Siddharth Dangwal, Conor Bradley, Vikram Ramesh, Jonathan M Baker, Hannes Bernien, Frederic T Chong<br>
+            <i>The 31st IEEE International Symposium on High-Performance Computer Architecture (HPCA-31)</i>
           </li>
           <br>
           <li>
@@ -78,7 +84,7 @@
         <ul class="list-disc font-sans text-xl text-nord2 mt-[1rem] ml-[2rem] mr-[2rem] mb-[1rem]">
           <li>
             Co-Instructor for UChicago's CMSC32900 - Quantum Computer Systems
-            <span style="float:right">(Spring 2023)</span>
+            <span style="float:right">(Spring 2023, Spring 2025)</span>
           </li>
           <li>
             Teaching Assistant for UChicago's CMSC32900 - Quantum Computer Systems
