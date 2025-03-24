@@ -24,15 +24,15 @@
         <div> <hr class="border-nord12 border-2 shadow-lg"> </div>
         <ul class="list-disc font-sans text-xl text-nord2 mt-[1rem] ml-[2rem] mr-[2rem] mb-[1rem]">
           <li>
-            <b>Predictive Window Decoding for Fault-Tolerant Quantum Programs</b>(<a href="https://arxiv.org/abs/2412.05115" class="text-nord12"><u>arXiv</u></a>)<br>
+            <b>SWIPER: Minimizing Fault-Tolerant Quantum Program Latency via Speculative Window Decoding</b>(<a href="https://arxiv.org/abs/2412.05115" class="text-nord12"><u>arXiv</u></a>)<br>
             <span class="text-nord12">Joshua Viszlai</span>, Jason D Chadwick, Sarang Joshi, Gokul Subramanian Ravi, Yanjing Li, Frederic T Chong<br>
-            <i>Under Review</i>
+            <i>To appear: International Symposium on Computer Architecture (ISCA 2025)</i>
           </li>
           <br>
           <li>
             <b>Averting multi-qubit burst errors in surface code magic state factories</b>(<a href="https://arxiv.org/abs/2405.00146" class="text-nord12"><u>arXiv</u></a>)<b class="text-nord11"> Best Paper Award <br>(1st Place Quantum Systems Software)</b><br>
             Jason D Chadwick, Christopher Kang, <span class="text-nord12">Joshua Viszlai</span>, Sophia Fuhui Lin, Frederic T Chong<br>
-            <i>IEEE International Conference on Quantum Computing and Engineering (QCE 24)</i>
+            <i>IEEE International Conference on Quantum Computing and Engineering (QCE 2024)</i>
           </li>
           <br>
           <li>
@@ -44,37 +44,37 @@
           <li>
             <b>Interleaved Logical Qubits in Atom Arrays</b><br>
             <span class="text-nord12">Joshua Viszlai</span>, Sophia Fuhui Lin, Siddharth Dangwal, Conor Bradley, Vikram Ramesh, Jonathan M Baker, Hannes Bernien, Frederic T Chong<br>
-            <i>The 31st IEEE International Symposium on High-Performance Computer Architecture (HPCA-31)</i>
+            <i>IEEE International Symposium on High-Performance Computer Architecture (HPCA 2025)</i>
           </li>
           <br>
           <li>
             <b>Codesign of quantum error-correcting codes and modular chiplets in the presence of defects</b>(<a href="https://arxiv.org/abs/2305.00138" class="text-nord12"><u>arXiv</u></a>)<br>
             Sophia Fuhui Lin, <span class="text-nord12">Joshua Viszlai</span>, Kaitlin N Smith, Gokul Subramanian Ravi, Charles Yuan, Frederic T Chong, Benjamin J Brown<br>
-            <i>ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 24)</i>
+            <i>ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2024)</i>
           </li>
           <br>
           <li>
             <b>Fast Fingerprinting of Cloud-based NISQ Quantum Computers</b>(<a href="https://arxiv.org/abs/2211.07880" class="text-nord12"><u>arXiv</u></a>)<br>
             Kaitlin N Smith, <span class="text-nord12">Joshua Viszlai</span>, Lennart Maximilian Seifert, Jonathan M Baker, Jakub Szefer, Frederic T Chong<br>
-            <i>IEEE International Symposium on Hardware Oriented Security and Trust (HOST 23)</i>
+            <i>IEEE International Symposium on Hardware Oriented Security and Trust (HOST 2023)</i>
           </li>
           <br>
           <li>
             <b>Training Quantum Boltzmann Machines with Coresets</b>(<a href="https://arxiv.org/abs/2307.14459" class="text-nord12"><u>arXiv</u></a>)<br>
             <span class="text-nord12">Joshua Viszlai</span>, Teague Tomesh, Pranav Gokhale, Eric Anschuetz, Frederic T Chong<br>
-            <i>IEEE International Conference on Quantum Computing and Engineering (QCE 22)</i>
+            <i>IEEE International Conference on Quantum Computing and Engineering (QCE 2022)</i>
           </li>
           <br>
           <li>
             <b>SupermarQ: A Scalable Quantum Benchmark Suite</b>(<a href="https://arxiv.org/abs/2202.11045" class="text-nord12"><u>arXiv</u></a>) <b class="text-nord11"> Best Paper Award</b><br>
             Teague Tomesh, Pranav Gokhale, Victory Omole, Gokul Subramanian Ravi, Kaitlin Smith, <span class="text-nord12">Joshua Viszlai</span>, Xin-Chuan Wu, Nikos Hardavellas, Margaret R. Martonosi, Frederic T Chong<br>
-            <i>The 28th IEEE International Symposium on High-Performance Computer Architecture (HPCA-28)</i>
+            <i>IEEE International Symposium on High-Performance Computer Architecture (HPCA 2022)</i>
           </li>
           <br>
           <li>
             <b>Adapting Quantum Approximation Optimization Algorithm (QAOA) for Unit Commitment</b> (<a href="https://arxiv.org/abs/2110.12624" class="text-nord12"><u>arXiv</u></a>)<br>
             Samantha Koretsky, Pranav Gokhale, Jonathan M. Baker, <span class="text-nord12">Joshua Viszlai</span>, Honghao Zheng, Niroj Gurung, Ryan Burg, Esa Aleksi Paaso, Amin Khodaei, Rozhin Eskandarpour, Frederic T Chong<br>
-            <i>IEEE International Conference on Quantum Computing and Engineering (QCE 21)</i>
+            <i>IEEE International Conference on Quantum Computing and Engineering (QCE 2021)</i>
           </li>
         </ul>
       </a>
